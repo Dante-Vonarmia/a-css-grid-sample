@@ -1,9 +1,11 @@
 {
+  "homepage": "https://Dante-Vonarmia.github.io/a-css-grid-sample",
   "private": true,
   "engines": {
     "node": ">=4"
   },
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "modernizr": "^3.7.1"
   },
   "devDependencies": {
@@ -39,7 +41,9 @@
     "start": "gulp serve",
     "build": "cross-env NODE_ENV=production gulp",
     "test": "npm run serve:test",
-    "tasks": "gulp --tasks"
+    "tasks": "gulp --tasks",
+    "predeploy": "npm run build",
+    "depoly": "gh-pages -d build"
   },
   "browserslist": [
     "> 1%",
