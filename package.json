@@ -1,4 +1,6 @@
 {
+  "name": "a-css-grid-sample",
+  "version": "0.1.0",
   "homepage": "https://Dante-Vonarmia.github.io/a-css-grid-sample",
   "private": true,
   "engines": {
